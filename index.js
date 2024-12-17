@@ -6,8 +6,8 @@ gsap.to(contents,{
     xPercent : -100*(contents.length-1),
     scrollTrigger:{
         trigger:'.sec4',
-        start: "top 30%",
-        end:"top top",
+        start: "top top",
+        end:"bottom center",
         pin:true,
         pinSpacing:true,
         scrub:true,
@@ -98,7 +98,7 @@ tl.to('.bubble',{
   
   
   
-  let words = ["Hi","hey👋","hello🙃","Feel tensed!","Impressed?","cooked","Man up!"]
+  let words = ["Hi","hello🙃","Feel tensed!","Impressed?","cooked","Man up!"]
   let consan = null
   
   let dum = document.getElementById('text')
